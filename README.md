@@ -1,11 +1,11 @@
 # CRUD-Node-API
 Complete Node.js API with CRUD functionality. Designed as a ToDo app. Build with Express and MongoDB. Fairly robust.
 
-So cel da gi poednostavam rabotite, gi zacuvuvam kredencijalite vo plain tekst. Vo realni produkciski scenarija, lozinkite (i korisnickite iminja) zadolzitelno treba da se enkriptiraat i da se zastitat
+So cel da gi poednostavam rabotite, gi zacuvuvam kredencijalite od bazata vo plain tekst. Vo realni produkciski scenarija, lozinkite (i korisnickite iminja) zadolzitelno treba da se enkriptiraat i da se zastitat
 
 Koristenje:
 
-API to moze da gi prikazuva site dosegasni to-do objekti so GET request do "/api/potsetnici/korisnik", kade sto korisnikot e vekje zavedena vrednost vo glavnata baza.
+API to moze da gi prikazuva site dosegasni to-do objekti so GET request do "/api/potsetnici/korisnik", kade sto korisnikot e vekje zavedena vrednost vo glavnata baza, a se sozdava so ednostavno sozdavanje na nov to-do objekt.
 
 Za sozdavanje nov to-do objekt, se upatuva POST request do "api/potsetnik" so slednive JSON parametri:
 - korisnik: String,
