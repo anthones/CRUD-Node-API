@@ -4,6 +4,7 @@ Complete Node.js API with CRUD functionality. Designed as a ToDo app. Build with
 So cel da gi poednostavam rabotite, gi zacuvuvam kredencijalite vo plain tekst. Vo realni produkciski scenarija, lozinkite (i korisnickite iminja) zadolzitelno treba da se enkriptiraat i da se zastitat
 
 Koristenje:
+
 API to moze da gi prikazuva site dosegasni to-do objekti so GET request do "/api/potsetnici/korisnik", kade sto korisnikot e vekje zavedena vrednost vo glavnata baza.
 
 Za sozdavanje nov to-do objekt, se upatuva POST request do "api/potsetnik" so slednive JSON parametri:
